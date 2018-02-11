@@ -8,13 +8,13 @@ a C# console application.
 
 Implementation steps include:
 
-  Creating an Azure Active Directory Application Id
+  **Creating an Azure Active Directory Application Id**
 
-  Creating a self signed X509 certificate (Certificate Authority issued certificate is recommended over a self-signed certificate)
+  **Creating a self signed X509 certificate (Certificate Authority issued certificate is recommended over a self-signed certificate)**
 
-  Installing the self signed certificate on the server or workstation
+  *Installing the self signed certificate on the server or workstation*
 
-  Assigning permissions to access the certificate
+  *Assigning permissions to access the certificate*
 
   Associating the certificate's public key with the Azure Application Id
 
