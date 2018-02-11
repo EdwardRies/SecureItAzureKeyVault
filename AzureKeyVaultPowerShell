@@ -1,0 +1,12 @@
+Import-Module AzureRM.KeyVault
+
+$TenantId = '4750998c-2a69-46d8-b9ee-208954e18fc4'
+$AADAppId = '9933fc1e-dbc4-4133-990f-fc462d112dc0'
+$Thumbprint = 'D9F43284FEBF2D2AA63219111F11A10F8A71D2E3'
+Login-AzureRmAccount -ServicePrincipal -ApplicationId  $AADAppId -CertificateThumbprint $Thumbprint -TenantId $TenantId
+
+$VaultName = 'HTHVault'
+$Key = 'ConnectionString'
+$connectionString = (Get-AzureKeyVaultSecret -VaultName $VaultName -Name $Key).SecretValueText
+
+Write-Output $connectionString
