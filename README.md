@@ -16,6 +16,7 @@ Implementation steps include:
 
    2. convert pvk and cer files into pkx file (private and public key combined)
    pvk2pfx -pvk MyTestCert.pvk -spc MyTestCert.cer -pfx MyTestCert.pfx -po PasswordHere
+   
   **Installing the self signed certificate on the server or workstation**
 
   **Assigning permissions to access the certificate**
