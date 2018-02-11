@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureAzureKeyVault", "SecureAzureKeyVault\SecureAzureKeyVault.csproj", "{6370CB8B-11F6-49EC-8D2F-FF6B1D9AABDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureITAzureKeyVault", "SecureITAzureKeyVault\SecureITAzureKeyVault.csproj", "{0CD81FD0-DBCF-4380-B908-E5324CE94556}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6370CB8B-11F6-49EC-8D2F-FF6B1D9AABDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6370CB8B-11F6-49EC-8D2F-FF6B1D9AABDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6370CB8B-11F6-49EC-8D2F-FF6B1D9AABDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6370CB8B-11F6-49EC-8D2F-FF6B1D9AABDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD81FD0-DBCF-4380-B908-E5324CE94556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD81FD0-DBCF-4380-B908-E5324CE94556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD81FD0-DBCF-4380-B908-E5324CE94556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD81FD0-DBCF-4380-B908-E5324CE94556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
